@@ -1,10 +1,10 @@
 # laravel-auth
  <h1>Follow these Steps for demo this sample</h1>
-        <li>
-            <ul>clone this repository</ul>
-            <ul>composer install</ul>
-            <ul>php artisan migrate:refresh --seed</ul>
-        </li>
+        <ul>
+            <li>clone this repository</li>
+            <li>composer install</li>
+            <li>php artisan migrate:refresh --seed</li>
+        </ul>
         <hr>  
         <h1>Steps followed to create this auth setup</h1>
         <ul>
