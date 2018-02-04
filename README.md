@@ -1,23 +1,22 @@
 # laravel-auth
- <h1>Steps followed to create this auth setup</h1>
+ <h1>Follow these Steps for demo this sample</h1>
         <li>
-        <ul>composer require laravel/passport</ul>
-        <ul>php artisan migrate</ul>
-        <ul>php artisan passport:install</ul>
-        <ul>User model configurations ( as per laravel docs )</ul>
-        <ul>AuthServiceProvider configurations ( as per laravel docs )</ul>
-        <ul>config/auth.php configurations ( as per laravel docs )</ul>
-        <ul>create user in users table ( using seeding )</ul>
-        </li>
-        <hr> 
-
-        <h1>Follow these Steps for demo this sample</h1>
-        <li>
+            <ul>clone this repository</ul>
             <ul>composer install</ul>
             <ul>php artisan migrate:refresh --seed</ul>
         </li>
-        <hr>    
-               
+        <hr>  
+        <h1>Steps followed to create this auth setup</h1>
+        <ul>
+        <li>composer require laravel/passport</li>
+        <li>php artisan migrate</li>
+        <li>php artisan passport:install</li>
+        <li>User model configurations ( as per laravel docs )</li>
+        <li>AuthServiceProvider configurations ( as per laravel docs )</li>
+        <li>config/auth.php configurations ( as per laravel docs )</li>
+        <li>create user in users table ( using seeding )</li>
+        </ul>
+        <hr>   
         <h1>Get Access token</h1>
         <h2>post method :</h2>
         http://127.0.0.1:8000/oauth/token
